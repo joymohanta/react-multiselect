@@ -20,10 +20,10 @@ const Multiselector = () => {
       return { ...styles, color: data.color };
     },
     multiValue: (styles, { data }) => {
-      return { ...styles, backgroundColor: data.color, color: "#fff" };
+      return { ...styles, backgroundColor: "#AEE9AE", color: data.color };
     },
     multiValueLabel: (styles, { data }) => {
-      return { ...styles, color: "#fff" };
+      return { ...styles, color: data.color };
     },
   };
 
